@@ -1,310 +1,196 @@
-[Clang]: https://clang.llvm.org/
-[GCC]: https://gcc.gnu.org/
-[Git]: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
-[Go]: https://go.dev/doc/install
-[bep]: https://github.com/bep
-[bugs]: https://github.com/gohugoio/hugo/issues?q=is%3Aopen+is%3Aissue+label%3ABug
-[contributing]: CONTRIBUTING.md
-[create a proposal]: https://github.com/gohugoio/hugo/issues/new?labels=Proposal%2C+NeedsTriage&template=feature_request.md
-[dart sass]: https://gohugo.io/functions/css/sass/#dart-sass
-[details]: https://gohugo.io/host-and-deploy/deploy-with-hugo-deploy/
-[documentation repository]: https://github.com/gohugoio/hugoDocs
-[documentation]: https://gohugo.io/documentation
-[dragonfly bsd, freebsd, netbsd, and openbsd]: https://gohugo.io/installation/bsd
-[features]: https://gohugo.io/about/features/
-[forum]: https://discourse.gohugo.io
-[friends]: https://github.com/gohugoio/hugo/graphs/contributors
-[hugo modules]: https://gohugo.io/hugo-modules/
-[installation]: https://gohugo.io/installation
-[issue queue]: https://github.com/gohugoio/hugo/issues
-[linux]: https://gohugo.io/installation/linux
-[macos]: https://gohugo.io/installation/macos
-[prebuilt binary]: https://github.com/gohugoio/hugo/releases/latest
-[requesting help]: https://discourse.gohugo.io/t/requesting-help/9132
-[spf13]: https://github.com/spf13
-[static site generator]: https://en.wikipedia.org/wiki/Static_site_generator
-[support]: https://discourse.gohugo.io
-[themes]: https://themes.gohugo.io/
-[transpile sass to css]: https://gohugo.io/functions/css/sass/
-[website]: https://gohugo.io
-[windows]: https://gohugo.io/installation/windows
+## TFScapegoat - Introduzione
+* Cos'è TFScapegoat?
+Tag Force Scapegoat è una versione modificata di Yu-Gi-Oh! GX Tag Force 1 creata da **IamGroot**.
 
-<a href="https://gohugo.io/"><img src="https://raw.githubusercontent.com/gohugoio/gohugoioTheme/master/static/images/hugo-logo-wide.svg?sanitize=true" alt="Hugo" width="565"></a>
+* **Obiettivo**  
+L'obiettivo di Tag Force Scapegoat è quello di rendere il gioco Tag Force 1 il più simile possibile ad un gioco per il Goat Format offline.
+* **Modifiche apportate**    
+✅ <span style="color: green;"><b>Card Pool</b></span><a href="#carte-mancanti">*</a>  
+_(Il Card Pool del gioco adesso conta 1.677 carte, tutte le altre sono state nascoste)_.  
+✅ <span style="color: green;"><b>Banlist</b></span>  
+_(Bandite, Limitate e Semi-Limitate del Goat Format)_.  
+✅ <span style="color: green;"><b>Deck Iniziale</b></span>  
+_(sono state sostituite tutte le carte non appartenenti al Goat Format)_.  
+✅ <span style="color: green;"><b>Deck degli NPC</b></span>  
+_(Modificati deck di alcuni NPC per maggiori informazioni [clicca qui!](/tfscapegoat/download/#deck-npc))_
+* **Modifiche non ancora apportate**  
+❌ <span style="color: red;"><b>Booster Pack</b></span>  
+❌ <span style="color: red;"><b>Restyling Grafico</b></span> 
+* **Considerazioni finali**  
+Se siete alla ricerca di un gioco senza impegni, con una grafica più nostalgica, non siete giocatori competitivi e il vostro obiettivo è quello di divertirvi giocando le vostre carte preferite dei tempi, questo è il gioco che fa per voi! 🙂
 
-A fast and flexible static site generator built with love by [bep][], [spf13][], and [friends][] in Go.
-
----
-
-[![GoDoc](https://godoc.org/github.com/gohugoio/hugo?status.svg)](https://godoc.org/github.com/gohugoio/hugo)
-[![Tests on Linux, MacOS and Windows](https://github.com/gohugoio/hugo/workflows/Test/badge.svg)](https://github.com/gohugoio/hugo/actions?query=workflow%3ATest)
-[![Go Report Card](https://goreportcard.com/badge/github.com/gohugoio/hugo)](https://goreportcard.com/report/github.com/gohugoio/hugo)
-
-[Website][] | [Installation][] | [Documentation][] | [Support][] | [Contributing][] | <a rel="me" href="https://fosstodon.org/@gohugoio">Mastodon</a>
-
-## Overview
-
-Hugo is a [static site generator][] written in Go, optimized for speed and designed for flexibility. With its advanced templating system and fast asset pipelines, Hugo renders a complete site in seconds, often less.
-
-Due to its flexible framework, multilingual support, and powerful taxonomy system, Hugo is widely used to create:
-
-- Corporate, government, nonprofit, education, news, event, and project sites
-- Documentation sites
-- Image portfolios
-- Landing pages
-- Business, professional, and personal blogs
-- Resumes and CVs
-
-Use Hugo's embedded web server during development to instantly see changes to content, structure, behavior, and presentation. Then deploy the site to your host, or push changes to your Git provider for automated builds and deployment.
-
-Hugo's fast asset pipelines include:
-
-- CSS Processing &ndash; Bundle, transform, minify, create source maps, perform SRI hashing, and integrate with PostCSS.
-- Image processing &ndash; Convert, resize, crop, rotate, adjust colors, apply filters, overlay text and images, and extract metadata
-- JavaScript bundling &ndash; Transpile TypeScript and JSX to JavaScript, bundle, tree shake, minify, create source maps, and perform SRI hashing.
-- Sass processing &ndash; Transpile Sass to CSS, bundle, tree shake, minify, create source maps, perform SRI hashing, and integrate with PostCSS
-- Tailwind CSS processing &ndash; Compile Tailwind CSS utility classes into standard CSS, bundle, tree shake, optimize, minify, perform SRI hashing, and integrate with PostCSS
-
-And with [Hugo Modules][], you can share content, assets, data, translations, themes, templates, and configuration with other projects via public or private Git repositories.
-
-See the [features][] section of the documentation for a comprehensive summary of Hugo's capabilities.
-
-## Sponsors
-
-<p>&nbsp;</p>
-<p float="left">
-  <a href="https://www.jetbrains.com/go/?utm_source=OSS&utm_medium=referral&utm_campaign=hugo" target="_blank"><img src="https://raw.githubusercontent.com/gohugoio/hugoDocs/master/assets/images/sponsors/goland.svg" width="200" alt="The complete IDE crafted for professional Go developers."></a>
-  &nbsp;&nbsp;&nbsp;
-    <a href="https://cloudcannon.com/hugo-cms/?utm_campaign=HugoSponsorship&utm_source=sponsor&utm_content=gohugo" target="_blank"><img src="https://raw.githubusercontent.com/gohugoio/hugoDocs/master/assets/images/sponsors/cloudcannon-cms-logo.svg" width="200" alt="CloudCannon"></a>
-</p>
-
-## Editions
-
-Hugo is available in several editions. Use the standard edition unless you need additional features.
-
-Feature|standard|deploy|extended|extended/deploy
-:--|:-:|:-:|:-:|:-:
-Core features|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:
-Direct cloud deployment (1)|:x:|:heavy_check_mark:|:x:|:heavy_check_mark:
-LibSass support (2)|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:
-
-(1) Deploy your site directly to a Google Cloud Storage bucket, an AWS S3 bucket, or an Azure Storage container. See&nbsp;[details][].
-
-(2) [Transpile Sass to CSS][] via embedded LibSass. Note that embedded LibSass was deprecated in v0.153.0 and will be removed in a future release. Use the [Dart Sass][] transpiler instead, which is compatible with any edition.
-
-## Installation
-
-Install Hugo from a [prebuilt binary][], package manager, or package repository. Please see the installation instructions for your operating system:
-
-- [macOS][]
-- [Linux][]
-- [Windows][]
-- [DragonFly BSD, FreeBSD, NetBSD, and OpenBSD][]
-
-## Build from source
-
-To build Hugo from source you must install:
-
-1. [Git][]
-1. [Go][] version 1.26.0 or later
-
-### Standard edition
-
-To build and install the standard edition:
-
-```sh
-CGO_ENABLED=0 go install github.com/gohugoio/hugo@latest
-```
-
-### Deploy edition
-
-To build and install the deploy edition:
-
-```sh
-CGO_ENABLED=0 go install -tags withdeploy github.com/gohugoio/hugo@latest
-```
-
-### Extended edition
-
-To build and install the extended edition, first install a C compiler such as [GCC][] or [Clang][] and then run the following command.
-
-```sh
-CGO_ENABLED=1 go install -tags extended github.com/gohugoio/hugo@latest
-```
-
-### Extended/deploy edition
-
-To build and install the extended/deploy edition, first install a C compiler such as [GCC][] or [Clang][] and then run the following command.
-
-```sh
-CGO_ENABLED=1 go install -tags extended,withdeploy github.com/gohugoio/hugo@latest
-```
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=gohugoio/hugo&type=Timeline)](https://star-history.com/#gohugoio/hugo&Timeline)
-
-## Documentation
-
-Hugo's [documentation][] includes installation instructions, a quick start guide, conceptual explanations, reference information, and examples.
-
-Please submit documentation issues and pull requests to the [documentation repository][].
-
-## Support
-
-Please **do not use the issue queue** for questions or troubleshooting. Unless you are certain that your issue is a software defect, use the [forum][].
-
-Hugo's [forum][] is an active community of users and developers who answer questions, share knowledge, and provide examples. A quick search of over 20,000 topics will often answer your question. Please be sure to read about [requesting help][] before asking your first question.
-
-## Contributing
-
-You can contribute to the Hugo project by:
-
-- Answering questions on the [forum][]
-- Improving the [documentation][]
-- Monitoring the [issue queue][]
-- Creating or improving [themes][]
-- Squashing [bugs][]
-
-Please submit documentation issues and pull requests to the [documentation repository][].
-
-If you have an idea for an enhancement or new feature, create a new topic on the [forum][] in the "Feature" category. This will help you to:
-
-- Determine if the capability already exists
-- Measure interest
-- Refine the concept
-
-If there is sufficient interest, [create a proposal][]. Do not submit a pull request until the project lead accepts the proposal.
-
-For a complete guide to contributing to Hugo, see the [Contribution Guide](CONTRIBUTING.md).
-
-## License
-
-For the Hugo source code, see [LICENSE](/LICENSE).
-
-We also bundle some libraries in binary/WASM form:
-
-- [libwebp](https://github.com/webmproject/libwebp), [BSD-3-Clause license](https://github.com/webmproject/libwebp?tab=BSD-3-Clause-1-ov-file#readme)
-- [Katex](https://github.com/KaTeX/KaTeX), [MIT license](https://github.com/KaTeX/KaTeX?tab=MIT-1-ov-file#readme)
-- [QuickJS](https://github.com/bellard/quickjs?tab=License-1-ov-file#readme), [License](https://github.com/bellard/quickjs?tab=License-1-ov-file#readme)
-
-## Dependencies
-
-Hugo stands on the shoulders of great open source libraries. Run `hugo env --logLevel info` to display a list of dependencies.
-
+<p id="carte-mancanti"><small><i>↪*: Al pool di carte mancano alcune carte non presenti nel gioco:</i></small></p>
 <details>
-<summary>See current dependencies</summary>
-
-```text
-github.com/BurntSushi/locker="v0.0.0-20171006230638-a6e239ea1c69"
-github.com/JohannesKaufmann/dom="v0.2.0"
-github.com/JohannesKaufmann/html-to-markdown/v2="v2.5.0"
-github.com/alecthomas/chroma/v2="v2.21.1"
-github.com/aymerick/douceur="v0.2.0"
-github.com/bep/clocks="v0.5.0"
-github.com/bep/debounce="v1.2.0"
-github.com/bep/gitmap="v1.9.0"
-github.com/bep/goat="v0.5.0"
-github.com/bep/godartsass/v2="v2.5.0"
-github.com/bep/golibsass="v1.2.0"
-github.com/bep/goportabletext="v0.1.0"
-github.com/bep/helpers="v0.6.0"
-github.com/bep/imagemeta="v0.12.0"
-github.com/bep/lazycache="v0.8.0"
-github.com/bep/logg="v0.4.0"
-github.com/bep/mclib="v1.20400.20402"
-github.com/bep/overlayfs="v0.10.0"
-github.com/bep/simplecobra="v0.6.1"
-github.com/bep/textandbinarywriter="v0.0.0-20251212174530-cd9f0732f60f"
-github.com/bep/tmc="v0.5.1"
-github.com/bits-and-blooms/bitset="v1.24.4"
-github.com/cespare/xxhash/v2="v2.3.0"
-github.com/clbanning/mxj/v2="v2.7.0"
-github.com/clipperhouse/displaywidth="v0.6.0"
-github.com/clipperhouse/stringish="v0.1.1"
-github.com/clipperhouse/uax29/v2="v2.3.0"
-github.com/cpuguy83/go-md2man/v2="v2.0.6"
-github.com/disintegration/gift="v1.2.1"
-github.com/dlclark/regexp2="v1.11.5"
-github.com/evanw/esbuild="v0.27.2"
-github.com/fatih/color="v1.18.0"
-github.com/frankban/quicktest="v1.14.6"
-github.com/fsnotify/fsnotify="v1.9.0"
-github.com/getkin/kin-openapi="v0.133.0"
-github.com/go-openapi/jsonpointer="v0.21.0"
-github.com/go-openapi/swag="v0.23.0"
-github.com/gobuffalo/flect="v1.0.3"
-github.com/gobwas/glob="v0.2.3"
-github.com/goccy/go-yaml="v1.19.1"
-github.com/gohugoio/go-i18n/v2="v2.1.3-0.20251018145728-cfcc22d823c6"
-github.com/gohugoio/go-radix="v1.2.0"
-github.com/gohugoio/hashstructure="v0.6.0"
-github.com/gohugoio/httpcache="v0.8.0"
-github.com/gohugoio/hugo-goldmark-extensions/extras="v0.5.0"
-github.com/gohugoio/hugo-goldmark-extensions/passthrough="v0.3.1"
-github.com/gohugoio/locales="v0.14.0"
-github.com/gohugoio/localescompressed="v1.0.1"
-github.com/google/go-cmp="v0.7.0"
-github.com/gorilla/css="v1.0.1"
-github.com/gorilla/websocket="v1.5.3"
-github.com/hairyhenderson/go-codeowners="v0.7.0"
-github.com/hashicorp/golang-lru/v2="v2.0.7"
-github.com/jdkato/prose="v1.2.1"
-github.com/josharian/intern="v1.0.0"
-github.com/kr/pretty="v0.3.1"
-github.com/kr/text="v0.2.0"
-github.com/kyokomi/emoji/v2="v2.2.13"
-github.com/mailru/easyjson="v0.7.7"
-github.com/makeworld-the-better-one/dither/v2="v2.4.0"
-github.com/marekm4/color-extractor="v1.2.1"
-github.com/mattn/go-colorable="v0.1.13"
-github.com/mattn/go-isatty="v0.0.20"
-github.com/mattn/go-runewidth="v0.0.19"
-github.com/microcosm-cc/bluemonday="v1.0.27"
-github.com/mitchellh/mapstructure="v1.5.1-0.20231216201459-8508981c8b6c"
-github.com/mohae/deepcopy="v0.0.0-20170929034955-c48cc78d4826"
-github.com/muesli/smartcrop="v0.3.0"
-github.com/niklasfasching/go-org="v1.9.1"
-github.com/oasdiff/yaml3="v0.0.0-20250309153720-d2182401db90"
-github.com/oasdiff/yaml="v0.0.0-20250309154309-f31be36b4037"
-github.com/olekukonko/cat="v0.0.0-20250911104152-50322a0618f6"
-github.com/olekukonko/errors="v1.1.0"
-github.com/olekukonko/ll="v0.1.3"
-github.com/olekukonko/tablewriter="v1.1.2"
-github.com/pbnjay/memory="v0.0.0-20210728143218-7b4eea64cf58"
-github.com/pelletier/go-toml/v2="v2.2.4"
-github.com/perimeterx/marshmallow="v1.1.5"
-github.com/pkg/browser="v0.0.0-20240102092130-5ac0b6a4141c"
-github.com/pkg/errors="v0.9.1"
-github.com/rogpeppe/go-internal="v1.14.1"
-github.com/russross/blackfriday/v2="v2.1.0"
-github.com/sass/dart-sass/compiler="1.97.1"
-github.com/sass/dart-sass/implementation="1.97.1"
-github.com/sass/dart-sass/protocol="3.2.0"
-github.com/spf13/afero="v1.15.0"
-github.com/spf13/cast="v1.10.0"
-github.com/spf13/cobra="v1.10.2"
-github.com/spf13/fsync="v0.10.1"
-github.com/spf13/pflag="v1.0.9"
-github.com/tdewolff/minify/v2="v2.24.8"
-github.com/tdewolff/parse/v2="v2.8.5"
-github.com/tetratelabs/wazero="v1.10.1"
-github.com/webmproject/libwebp="v1.6.0"
-github.com/woodsbury/decimal128="v1.3.0"
-github.com/yuin/goldmark-emoji="v1.0.6"
-github.com/yuin/goldmark="v1.7.13"
-go.uber.org/automaxprocs="v1.5.3"
-go.yaml.in/yaml/v3="v3.0.4"
-golang.org/x/crypto="v0.46.0"
-golang.org/x/image="v0.34.0"
-golang.org/x/mod="v0.31.0"
-golang.org/x/net="v0.48.0"
-golang.org/x/sync="v0.19.0"
-golang.org/x/sys="v0.39.0"
-golang.org/x/text="v0.32.0"
-golang.org/x/tools="v0.40.0"
-google.golang.org/protobuf="v1.36.10"
-gopkg.in/yaml.v3="v3.0.1"
-rsc.io/qr="v0.2.0"
-software.sslmate.com/src/go-pkcs12="v0.2.0"
-```
+	<summary>Mostra dettagli:</summary>
+	- Different Dimension Dragon<br>
+	- Double Spell<br>
+	- Fake Trap<br>
+	- Grave Lure<br>
+	- Judgment of the Desert<br>
+	- Kaiser Colosseum<br>
+	- Lone Wolf<br>
+	- Metalsilver Armor<br>
+	- Morale Boost<br>
+	- Muko<br>
+	- Narrow Pass<br>
+	- Neko Mane King<br>
+	- Pharaoh's Treasure<br>
+	- Pole Position<br>
+	- Pyro Clock of Destiny<br>
+	- Question<br>
+	- Remove Brainwashing<br>
+	- Rivalry of Warlords<br>
+	- Royal Oppression<br>
+	- Secret Pass to the Treasures<br>
+	- Spirit Elimination
 </details>
+
+## TFScapegoat - Galleria
+_Deck Iniziale_
+![IMG04](https://tfscapegoat.vercel.app/images/screenshot/04.png)
+_Carte Bandite_
+![IMG05](https://tfscapegoat.vercel.app/images/screenshot/05.png)
+_Carte Limitate_
+![IMG06](https://tfscapegoat.vercel.app/images/screenshot/06.png)
+_Carte Semi-Limitate_
+![IMG07](https://tfscapegoat.vercel.app/images/screenshot/07.png)
+_[Clicca qui](https://tfscapegoat.vercel.app/tfscapegoat/galleria/) per visualizzare la galleria completa!_
+
+## TFScapegoat - Guida
+1. Scompattare il pack appena scaricato;
+2. Copiare il contenuto del pack nella vostra cartella `"PPSSPP/memstick/PSP"`;
+3. Avviate il gioco e se tutto funziona vi apparirà la scritta: `✅Plugin caricato: TF-EhpLoader.prx`;
+4. Alla schermata iniziale rechiamoci su `database → Forbidden/Limited Card List` e si aprirà la banlist del gioco. Nella schermata della banlist dovete premere `△ → Change Forb/Ltd Card List → Goat`;
+5. Se volete sbloccare tutte le carte vi basterà premere `esc → Trucchi →` e attivare entrambi `Give you all cards x7`
+   Successivamente potete anche disattivarli.<br>
+	⚠️ <b>Importante:</b> Non disattivare mai `Allows Game To Read Decrypted DLC Files (ULES00600 v1.01)`
+	Ora siete pronti per giocare il vostro Goat Offline! 😎
+
+_[Clicca qui](http://tfscapegoat.vercel.app/tfscapegoat/guida/) per una guida più dettagliata con immagini._
+
+## TFScapegoat - Download
+**Ultima Versione (v1.1)**<br>
+_Note della Versione: In questa versione sono state apportate le seguenti modifiche:_  
+* Lingue supportate: <img src="https://tfscapegoat.vercel.app/images/flags/us.png" width="24px"> <img src="https://tfscapegoat.vercel.app/images/flags/de.png" width="24px"> <img src="https://tfscapegoat.vercel.app/images/flags/fr.png" width="24px"> <img src="https://tfscapegoat.vercel.app/images/flags/it.png" width="24px"> <img src="https://tfscapegoat.vercel.app/images/flags/es.png" width="24px">
+* Modificata banlist: **Bandite**, **Limitate** e **Semi-Limitate** Goat Format.
+* Modificato il pool di carte disponibile: Il Card Pool del gioco adesso conta **1.677** carte, tutte le altre sono state nascoste.
+* Modificato il Deck iniziale: adesso per le nuove partite il card pool è solo Goat Format senza rimanenze.
+* <span id="deck-npc">Modifiche deck NPC:</span>
+<details>
+	<summary>Clicca per vedere le modifiche:</summary>
+	- New Hero Summon (Jaden Yuki) → Elemental Hero (GOAT)<br>
+	- Heart of Gold (Syrus Truesdale) → XYZ Machine Aggro (GOAT)<br>
+	- Wrath of Nature (Chumley Huffington) → Beastdown (GOAT)<br>
+	- Raising the Curtains (Alexis Rhodes) → Harpie (GOAT)<br>
+	- Stirless Earth (Bastion Misawa) → Magnet Warrior (GOAT)<br>
+	- Ultimate Mecha-Dragon (Zane Truesdale) → Cyber-Stein OTK (GOAT)
+	<p><small>N.B. i deck saranno modificati in futuro (è solo una versione di prova al momento).</small></p>
+</details>
+
+Data di rilascio: **12/06/2026**  
+Link download: <a href="https://github.com/SapphireCW/TFScapegoat/releases/tag/TFScapegoat"><img src="https://tfscapegoat.vercel.app/images/github.png" width="32px"></a> - <a href="https://drive.google.com/drive/folders/1ccWaU61GGCoqf0IMUmqf1g4JN7rwDAkz?usp=drive_link" target="blank"><img src="https://tfscapegoat.vercel.app/images/google-drive.png"></a> - <a href="https://mega.nz/folder/p3ggFZKA#q9VU_0vLsqSFN5VMGn94Eg" target="blank"><img src="https://tfscapegoat.vercel.app/images/mega.png"></a> - <a href="https://www.mediafire.com/folder/n8os6y3h2q39o/Tag+Force+Scapegoat+v1.1" target="blank"><img src="https://tfscapegoat.vercel.app/images/mediafire.png" width="50px"></a>
+
+## TFScapegoat - FAQ
+<ul>
+	<li><b>D: Cos'è Tag Force Scapegoat?</b></li>
+		<ul>
+			<li>R: TFScapegoat è una mod per <code>Yu-Gi-Oh! GX Tag Force 1</code> <i>(il gioco per PSP)</i>.  
+			La mod vi permetterà di giocare il gioco originale Tag Force con il pool di carte e la banlist del Goat Format. <i>(tutte le altre carte sono state nascoste.)</i> </li>
+		</ul>
+	<li><b>D: Posso usare il vecchio salvataggio?</b></li>
+		<ul>
+			<li>R: Certamente! La mod è compatibile con i vecchi salvataggi, l'importante è che il salvataggio sia <code>ULES00600000x</code>.</li>
+		</ul>
+	<li><b>D: Quali lingue supporta la mod?</b></li>
+		<ul>
+			<li>R: La mod supporta tutte le lingue supportate dal gioco originale. <i>(<code>Inglese</code>, <code>Tedesco</code>, <code>Francese</code>, <code>Italiano</code> e <code>Spagnolo</code>.)</i></li>
+		</ul>
+	<li><b>D: La mod funziona solo su emulatore (PPSSPP) o anche su console fisica?</b></li>
+		<ul>
+			<li>R: La mod funziona con emulatore <code>PPSSPP (v1.20.x)</code> e successive, inoltre la mod funziona anche su console fisica (per maggiori info <a href="https://github.com/xan1242/TFEhpLoader#psp-note">clicca qui!</a>).</li>
+		</ul>
+	<li><b>D: Come disinstallo la mod?</b></li>
+		<ul>
+			<li>R: Per disinstallare la mod vi basterà: cancellare tutti i file importati (<code>Cheats/ULES00600.ini</code>, <code>SAVEDATA/ULES006000001/goat.YGL</code>, <code>PLUGINS/TF-EhpLoader</code> e sostituire la <code>iso</code> di gioco con quella originale.</li>
+		</ul>
+	<li><b>D: Cosa succede se acquisto dei pack dallo shop?</b></li>
+		<ul>
+			<li>R: I pack funzionano normalmente come sul gioco originale, ma tutte le carte non presenti nel pool del Goat vi verranno nascoste e non vi appariranno nella cassa.</li>
+		</ul>
+	<li id="TFEhpLoader"><b>D: Non mi appare la scritta <i><span style="background-color: green; color: white;">✅Plugin caricato: TF-EhpLoader.prx</span></i> cosa devo fare?</b></li>
+	<ul>
+		<li>R: Come prima cosa, se l'emulatore non vi carica il plugin, dovete controllare nelle impostazioni di PPSSPP se avete i plugin attivi: per farlo vi basterà recarvi in <code>Impostazioni</code> → <code>Sistema</code> scendere quasi alla fine della pagina e noterete le voci <code>Attiva i Trucchi</code> e <code>Abilita plugin</code> spuntatele entrambe. Riavviate il gioco e adesso dovrebbe comparirvi la scritta<br>
+		✅Plugin caricato: TF-EhpLoader.prx.<br>
+		Se ancora non vi carica il plugin allora c'è un problema di configurazione del plugin. Recatevi nella cartella <code>memstick</code> della vostra PSP e aprite la cartella <code>PLUGINS</code> → <code>TF-EhpLoader</code> e aprite il file <code>plugin.ini</code> con un blocco note, successivamente dovete controllare se sotto la voce <code>[games]</code> ci sia l'ID di Tag Force 1 (ULES00600 = true). Se non c'è inseritelo, salvate il file e riavviate l'emulatore.
+		<div style="background:#1e3a5f; border-left:4px solid #3498db; padding:15px; margin:20px 0; border-radius:5px;">
+			ℹ️ <b>Nota:</b> Se usate entrambe le versioni della mod (sia Tag Force 1, sia Tag Force 5) il file <code>plugin.ini</code> dovrebbe essere così configurato:<br>
+			[games]<br>
+		ULES00600 = true<br>
+		ULES01474 = true
+		</div></li>
+	</ul>
+	<li><b>D: Il gioco non mi carica i deck modificati degli NPC cosa posso fare?</b></li>
+	<ul>
+		<li>
+			R: Se il gioco non vi carica i deck modificati degli NPC il problema è sicuramente una scorretta configurazione del plugin <code>TFEhpLoader</code>.<br>
+			Come prima cosa controllate che all'avvio del gioco vi appaia la scritta:<br>
+			<i><span style="background-color: green; color: white;">✅Plugin caricato: TF-EhpLoader.prx</span></i> (date un'occhiata <a href="#TFEhpLoader">qui</a>).<br>
+			Se all'avvio vi compare la scritta ma comunque non vi carica i deck modificati degli NPC allora dobbiamo assicurarci che il tutto funzioni. Rechiamoci nella cartella <code>memstick</code> di PPSSPP e apriamo la cartella <code>PLUGINS</code> → <code>TF-EhpLoader</code> la cartella dovrebbe avere tutti i seguenti file:<br>
+			<code>ehps</code> → <code>ULES00600</code> → <code>rcpset.ehp</code><br>
+			<code>plugin.ini</code>, <code>TF-EhpLoader.prx</code> e <code>TF-EhpLoaderBoot.prx</code>.<br>
+			Se il tutto è configurato nel seguente modo allora è corretto e il tutto funziona. Altrimenti se vi manca qualche file riscaricate la cartella PLUGINS dalla pagina di <a href="https://tfscapegoat.vercel.app/tfscapegoat/download/">download</a>
+		</li>
+	</ul>
+	<li><b>D: Il gioco non mi carica la banlist del Goat Format cosa posso fare?</b></li>
+	<ul>
+		<li>
+			R: Se il gioco non vi carica la banlist del Goat dobbiamo innanzitutto assicurarci di averla caricata correttamente: Rechiamoci nella cartella <code>memstick</code> di PPSSPP e apriamo la cartella <code>SAVEDATA</code> → <code>ULES006000001</code> e assicuriamoci che ci sia il file <code>goat.YGL</code> (Se il file non è stato caricato potete riscaricarlo dalla pagina di <a href="https://tfscapegoat.vercel.app/tfscapegoat/download/">download</a>).<br>
+			Invece se il file è presente nella cartella ma il gioco non vi carica la banlist le soluzioni possono essere:<br>
+			1) Seguire il passo <a href="https://tfscapegoat.vercel.app/tfscapegoat/guida/#passo-4">4.</a> della guida per impostare la banlist.<br>
+			2) controllare nelle impostazioni di PPSSPP se avete i trucchi attivi: per farlo vi basterà recarvi in <code>Impostazioni</code> → <code>Sistema</code> scendere quasi alla fine della pagina e noterete la voce <code>Attiva i Trucchi</code> ora se non attiva attivatela. Riavviate il gioco, seguite il passo <a href="/https://tfscapegoat.vercel.app/tfscapegoat/guida/#passo-4">4.</a> della guida e dovrebbe funzionare tutto correttamente.<br>
+			3) controllare nel menù dei trucchi PPSSPP se il trucco <code>Allows Game To Read Decrypted DLC Files (ULES00600 v1.01)</code> sia attivo.
+		</li>
+	</ul>
+</ul>
+
+<div style="background:#5c4a1f; border-left:4px solid #f39c12; padding:15px; margin:20px 0; border-radius:5px;">
+⚠️ <b>Attenzione:</b> Se avete altre segnalazioni potete contattarci al seguente indirizzo e-mail: <a href="mailto:tfscapegoat.info@protonmail.com">tfscapegoat.info@protonmail.com</a> oppure <a href="https://tfscapegoat.vercel.app/contattaci/">clicca qui!</a>
+</div>
+
+## Ringraziamenti
+<div style="display:flex; flex-wrap:wrap; justify-content:center; gap:20px; text-align:center;">
+  
+  <div style="flex:0 0 100px;">
+    <img src="https://avatars.githubusercontent.com/u/8014093?v=4" width="80" style="border-radius:50%; display:block; margin:0 auto;">
+    <a href="https://github.com/xan1242" target="_blank" style="font-size:14px;">xan1242</a>
+  </div>
+  
+  <div style="flex:0 0 100px;">
+    <img src="https://avatars.githubusercontent.com/u/64436268?v=4" width="80" style="border-radius:50%; display:block; margin:0 auto;">
+    <a href="https://github.com/SyrusKyury" target="_blank" style="font-size:14px;">SyrusKyury</a>
+  </div>
+  
+  <div style="flex:0 0 100px;">
+    <img src="https://avatars.githubusercontent.com/u/100406176?v=4" width="80" style="border-radius:50%; display:block; margin:0 auto;">
+    <a href="https://github.com/Akrgood" target="_blank" style="font-size:14px;">akrgood</a>
+  </div>
+  
+  <div style="flex:0 0 100px;">
+    <img src="https://tfscapegoat.vercel.app/images/user.png" width="80" style="border-radius:50%; display:block; margin:0 auto;">
+    <a href="https://www.romhacking.net/community/4084/" target="_blank" style="font-size:14px;">NoOneee</a>
+  </div>
+  
+  <div style="flex:0 0 100px;">
+    <img src="https://tfscapegoat.vercel.app/images/user.png" width="80" style="border-radius:50%; display:block; margin:0 auto;">
+    <a href="https://www.romhacking.net/community/4089/" target="_blank" style="font-size:14px;">UMDGen Team</a>
+  </div>
+  
+  <div style="flex:0 0 100px;">
+    <img src="https://tfscapegoat.vercel.app/images/user.png" width="80" style="border-radius:50%; display:block; margin:0 auto;">
+    <a href="https://www.muquifoplays.online/" target="_blank" style="font-size:14px;">Muquifo Plays</a>
+  </div>
+
+</div>
+<br>
+
+ _Yu-Gi-Oh! GX Tag Force è un marchio registrato di Konami.<br>Questo sito non è affiliato con Konami._
