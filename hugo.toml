@@ -12,3 +12,17 @@ theme = "hugo-simple"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+	  
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pageRef = "/"
+    weight = 10
+  [[menu.main]]
+    name = "TFScapegoat"
+    pageRef = "tfscapegoat"
+    weight = 20
+	[[menu.main]]
+    name = "Contattaci"
+    pageRef = "contattaci"
+    weight = 30
