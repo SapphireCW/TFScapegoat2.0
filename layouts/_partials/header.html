@@ -1,0 +1,11 @@
+<nav>{{- partial "nav.html" . -}}</nav>
+{{- if not (eq .Kind "404") }}
+  {{- with .Title }}
+    <h1 style="font-size: 30px">{{ . }}</h1>
+  {{- end }}
+{{- end }}
+{{ with .Description }}
+  <p>{{ . }}</p>
+{{ end }}
+
+<link rel="stylesheet" href="/css/custom.css">

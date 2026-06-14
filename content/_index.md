@@ -18,6 +18,7 @@ description: "Benvenuto visitatore!"
   </span>
 </div>
 
+
 	<h2>Ringraziamenti 🙏</h2>
 </center>
 <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:20px; text-align:center;">

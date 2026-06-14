@@ -1,0 +1,12 @@
+{{ with .Site.Copyright }}
+  <span>{{ . }}</span>
+{{ end }}
+{{ if not .Site.Params.hideMadeWithLine }}
+ <p><small><b>Tag Force Scapegoat</b> è una mod creata da <a href="/contattaci"><b>IamGroot</b></a> al solo scopo di fornire un nuovo prodotto alla community.<br><b>TFSCAPEGOAT NON È STATO CREATO A SCOPO DI LUCRO, DIFFIDATE DA ALTRI SITI A PAGAMENTO E SCARICATELO SOLTANTO DAI CANALI UFFICIALI:</b><br><a href="https://github.com/SapphireCW/TFScapegoat" target="blank"><img src="/images/github.png" width="16px"></a> - <a href="https://drive.google.com/drive/folders/1cWbrhBfLFW1MbTeFVi0z4G6wThPAcUqB?usp=drive_link" target="blank"><img src="/images/google-drive.png" width="16px"></a> - <a href="https://mega.nz/folder/cvJUUIxZ#3RD6mz4Hemdj3VxntevQ0g" target="blank"><img src="/images/mega.png" width="16px"></a> - <a href="https://www.mediafire.com/folder/u3vlrh96xdlr1/Tag+Force+Scapegoat+Edition" target="blank"><img src="/images/mediafire.png" width="24px"></a></small><p>
+ <p><small>Yu-Gi-Oh! GX Tag Force è un marchio registrato di Konami.<br>Questo sito non è affiliato con Konami.</small></p>
+  <span>
+    {{ if .Site.Copyright }}|{{ end }}
+    {{ T "made_with" }}
+    <a href="https://github.com/maolonglong/hugo-simple/">Hugo ʕ•ᴥ•ʔ Simple</a>
+  </span>
+{{ end }}
