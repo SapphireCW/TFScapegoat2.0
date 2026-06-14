@@ -1,0 +1,13 @@
+---
+title: "/u/ImGroot2404 on Tag Force Scapegoat (v1.0) Release"
+date: 2026-05-27T23:10:54+02:00
+draft: false
+source: "reddit"
+source_url: "https://www.reddit.com/r/Goat_Format/comments/1tof44b/tag_force_scapegoat_v10_release/oo90y4k/"
+categories: ["Aggiornamenti"]
+tags: ["reddit", "news"]
+---
+
+/u/ImGroot2404 on Tag Force Scapegoat (v1.0) Release
+
+👉 [Leggi il post completo su Reddit](https://www.reddit.com/r/Goat_Format/comments/1tof44b/tag_force_scapegoat_v10_release/oo90y4k/)
