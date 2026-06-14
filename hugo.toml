@@ -4,6 +4,7 @@ title = 'TFScapegoat'
 theme = "hugo-simple"
 
 [params]
+  favicon = "/favicon.png"
   description = "A Goat Format mod of Yu-Gi-Oh! GX Tag Force."
   [params.author]
     name = "IamGroot"
