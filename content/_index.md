@@ -18,7 +18,11 @@ description: "Benvenuto visitatore!"
   </span>
 </div>
 
+<center><h2>Ultime Notizie <img src="/images/reddit.png" width="36px"></h2></center>
 
+<center>{{< latest-news >}}</center>
+
+<center>
 	<h2>Ringraziamenti 🙏</h2>
 </center>
 <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:20px; text-align:center;">

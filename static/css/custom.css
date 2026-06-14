@@ -1,0 +1,32 @@
+/* ===== COLORI PRINCIPALI ===== */
+
+/* Menu Principale */
+header nav a.current{background:  #d4af37; color: black !important; border-color: #d4af37 !important;}
+header nav a {background: #7f3fbf; color: #fff8e1 !important; border-color: #7e3af2 !important;}
+header nav a:hover {background:  #d4af37; color: black !important; border-color: #d4af37 !important; text-decoration: none;}
+
+/* Header */
+header {background-color: #5e2b97 !important; border-bottom-color: #d4af37 !important;}
+
+/* Body */
+body {background-color: #2a0a4a !important; color: #FFF !important}
+
+/* Footer */
+footer {border-top-color: #d4af37 !important; color: #FFF !important}
+
+/* Link */
+a {color: #ffb300 !important}
+a:hover{color: #9333ea !important; text-decoration: underline;}
+
+/* Titoli */
+h1,h2,h3 {color: #e5c96b;}
+
+/* Spoiler */
+summary{background: #5e2b97 !important;}
+details {background: #5e2b97 !important; border-color: #7e3af2 !important;}
+
+/* Form */
+input#email{background: #5e2b97; border-color: #7e3af2;}
+textarea#message{background: #5e2b97; border-color: #7e3af2;}
+button{background: #7f3fbf; color: #fff8e1; border-color: #7e3af2}
+button:hover{background:  #d4af37 !important; color: black; border-color: #d4af37 !important}
