@@ -1,3 +1,14 @@
-baseURL = 'https://example.org/'
-locale = 'en-us'
-title = 'My New Hugo Project'
+baseURL = 'https://tfscapegoat.vercel.app/'
+languageCode = 'it-IT'
+title = 'TFScapegoat'
+theme = "hugo-simple"
+
+[params]
+  description = "A Goat Format mod of Yu-Gi-Oh! GX Tag Force."
+  [params.author]
+    name = "IamGroot"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
