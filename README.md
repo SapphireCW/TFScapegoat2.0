@@ -62,7 +62,7 @@ _[Clicca qui](https://tfscapegoat.vercel.app/tfscapegoat/galleria/) per visualiz
 1. Scompattare il pack appena scaricato;
 2. Copiare il contenuto del pack nella vostra cartella `"PPSSPP/memstick/PSP"`;
 3. Avviate il gioco e se tutto funziona vi apparirà la scritta: `✅Plugin caricato: TF-EhpLoader.prx`;
-4. Alla schermata iniziale rechiamoci su `database → Forbidden/Limited Card List` e si aprirà la banlist del gioco. Nella schermata della banlist dovete premere `△ → Change Forb/Ltd Card List → Goat`;
+4. <span id="passo-4">Alla</span> schermata iniziale rechiamoci su `database → Forbidden/Limited Card List` e si aprirà la banlist del gioco. Nella schermata della banlist dovete premere `△ → Change Forb/Ltd Card List → Goat`;
 5. Se volete sbloccare tutte le carte vi basterà premere `esc → Trucchi →` e attivare entrambi `Give you all cards x7`
    Successivamente potete anche disattivarli.<br>
 	⚠️ <b>Importante:</b> Non disattivare mai `Allows Game To Read Decrypted DLC Files (ULES00600 v1.01)`
@@ -140,7 +140,7 @@ Link download: <a href="https://github.com/SapphireCW/TFScapegoat2.0/releases/ta
 			Se all'avvio vi compare la scritta ma comunque non vi carica i deck modificati degli NPC allora dobbiamo assicurarci che il tutto funzioni. Rechiamoci nella cartella <code>memstick</code> di PPSSPP e apriamo la cartella <code>PLUGINS</code> → <code>TF-EhpLoader</code> la cartella dovrebbe avere tutti i seguenti file:<br>
 			<code>ehps</code> → <code>ULES00600</code> → <code>rcpset.ehp</code><br>
 			<code>plugin.ini</code>, <code>TF-EhpLoader.prx</code> e <code>TF-EhpLoaderBoot.prx</code>.<br>
-			Se il tutto è configurato nel seguente modo allora è corretto e il tutto funziona. Altrimenti se vi manca qualche file riscaricate la cartella PLUGINS dalla pagina di <a href="https://tfscapegoat.vercel.app/tfscapegoat/download/">download</a>
+			Se il tutto è configurato nel seguente modo allora è corretto e il tutto funziona. Altrimenti se vi manca qualche file riscaricate la cartella PLUGINS dalla pagina di <a href="#tfscapegoat---download-%EF%B8%8F">download</a>
 		</li>
 	</ul>
 	<li><b>D: Il gioco non mi carica la banlist del Goat Format cosa posso fare?</b></li>
@@ -148,8 +148,8 @@ Link download: <a href="https://github.com/SapphireCW/TFScapegoat2.0/releases/ta
 		<li>
 			R: Se il gioco non vi carica la banlist del Goat dobbiamo innanzitutto assicurarci di averla caricata correttamente: Rechiamoci nella cartella <code>memstick</code> di PPSSPP e apriamo la cartella <code>SAVEDATA</code> → <code>ULES006000001</code> e assicuriamoci che ci sia il file <code>goat.YGL</code> (Se il file non è stato caricato potete riscaricarlo dalla pagina di <a href="https://tfscapegoat.vercel.app/tfscapegoat/download/">download</a>).<br>
 			Invece se il file è presente nella cartella ma il gioco non vi carica la banlist le soluzioni possono essere:<br>
-			1) Seguire il passo <a href="https://tfscapegoat.vercel.app/tfscapegoat/guida/#passo-4">4.</a> della guida per impostare la banlist.<br>
-			2) controllare nelle impostazioni di PPSSPP se avete i trucchi attivi: per farlo vi basterà recarvi in <code>Impostazioni</code> → <code>Sistema</code> scendere quasi alla fine della pagina e noterete la voce <code>Attiva i Trucchi</code> ora se non attiva attivatela. Riavviate il gioco, seguite il passo <a href="/https://tfscapegoat.vercel.app/tfscapegoat/guida/#passo-4">4.</a> della guida e dovrebbe funzionare tutto correttamente.<br>
+			1) Seguire il passo <a href="#passo-4">4.</a> della guida per impostare la banlist.<br>
+			2) controllare nelle impostazioni di PPSSPP se avete i trucchi attivi: per farlo vi basterà recarvi in <code>Impostazioni</code> → <code>Sistema</code> scendere quasi alla fine della pagina e noterete la voce <code>Attiva i Trucchi</code> ora se non attiva attivatela. Riavviate il gioco, seguite il passo <a href="/#passo-4">4.</a> della guida e dovrebbe funzionare tutto correttamente.<br>
 			3) controllare nel menù dei trucchi PPSSPP se il trucco <code>Allows Game To Read Decrypted DLC Files (ULES00600 v1.01)</code> sia attivo.
 		</li>
 	</ul>
@@ -195,4 +195,5 @@ Link download: <a href="https://github.com/SapphireCW/TFScapegoat2.0/releases/ta
 </div>
 <br>
 
+**TFSCAPEGOAT NON È STATO CREATO A SCOPO DI LUCRO, DIFFIDATE DA ALTRI SITI A PAGAMENTO E SCARICATELO SOLTANTO DAI CANALI UFFICIALI:**
  _Yu-Gi-Oh! GX Tag Force è un marchio registrato di Konami.<br>Questo sito non è affiliato con Konami._
