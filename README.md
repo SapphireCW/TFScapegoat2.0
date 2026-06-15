@@ -14,7 +14,7 @@ _(Bandite, Limitate e Semi-Limitate del Goat Format)_.
 ✅ <span style="color: green;"><b>Deck Iniziale</b></span>  
 _(sono state sostituite tutte le carte non appartenenti al Goat Format)_.  
 ✅ <span style="color: green;"><b>Deck degli NPC</b></span>  
-_(Modificati deck di alcuni NPC per maggiori informazioni [clicca qui!](/tfscapegoat/download/#deck-npc))_
+_(Modificati deck di alcuni NPC per maggiori informazioni [clicca qui!](#deck-npc))_
 * **Modifiche non ancora apportate**  
 ❌ <span style="color: red;"><b>Booster Pack</b></span>  
 ❌ <span style="color: red;"><b>Restyling Grafico</b></span> 
