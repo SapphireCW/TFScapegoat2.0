@@ -90,7 +90,7 @@ _Note della Versione: In questa versione sono state apportate le seguenti modifi
 </details>
 
 Data di rilascio: **12/06/2026**  
-Link download: <a href="https://github.com/SapphireCW/TFScapegoat/releases/tag/TFScapegoat"><img src="https://tfscapegoat.vercel.app/images/github.png" width="32px"></a> - <a href="https://drive.google.com/drive/folders/1ccWaU61GGCoqf0IMUmqf1g4JN7rwDAkz?usp=drive_link" target="blank"><img src="https://tfscapegoat.vercel.app/images/google-drive.png"></a> - <a href="https://mega.nz/folder/p3ggFZKA#q9VU_0vLsqSFN5VMGn94Eg" target="blank"><img src="https://tfscapegoat.vercel.app/images/mega.png"></a> - <a href="https://www.mediafire.com/folder/n8os6y3h2q39o/Tag+Force+Scapegoat+v1.1" target="blank"><img src="https://tfscapegoat.vercel.app/images/mediafire.png" width="50px"></a>
+Link download: <a href="https://github.com/SapphireCW/TFScapegoat2.0/releases/tag/TFScapegoat"><img src="https://tfscapegoat.vercel.app/images/github.png" width="32px"></a> - <a href="https://drive.google.com/drive/folders/1ccWaU61GGCoqf0IMUmqf1g4JN7rwDAkz?usp=drive_link" target="blank"><img src="https://tfscapegoat.vercel.app/images/google-drive.png"></a> - <a href="https://mega.nz/folder/p3ggFZKA#q9VU_0vLsqSFN5VMGn94Eg" target="blank"><img src="https://tfscapegoat.vercel.app/images/mega.png"></a> - <a href="https://www.mediafire.com/folder/n8os6y3h2q39o/Tag+Force+Scapegoat+v1.1" target="blank"><img src="https://tfscapegoat.vercel.app/images/mediafire.png" width="50px"></a>
 
 ## TFScapegoat - FAQ ❔
 <ul>
