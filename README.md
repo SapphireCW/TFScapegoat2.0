@@ -195,7 +195,7 @@ Link download: <a href="https://github.com/SapphireCW/TFScapegoat2.0/releases/ta
 </div>
 <br>
 
-**TFSCAPEGOAT NON È STATO CREATO A SCOPO DI LUCRO, DIFFIDATE DA ALTRI SITI A PAGAMENTO E SCARICATELO SOLTANTO DAI CANALI UFFICIALI:**
+**TFSCAPEGOAT NON È STATO CREATO A SCOPO DI LUCRO, DIFFIDATE DA ALTRI SITI A PAGAMENTO E SCARICATELO SOLTANTO DAI CANALI UFFICIALI!**
 <br>
 
  _Yu-Gi-Oh! GX Tag Force è un marchio registrato di Konami.<br>Questo sito non è affiliato con Konami._
