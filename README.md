@@ -1,4 +1,4 @@
-<img src="https://tfscapegoat.vercel.app/images/logo.png">
+<img src="https://tfscapegoat.vercel.app/images/logo.png" width="240px">
 
 ## TFScapegoat - Introduzione 🏁
 * Cos'è TFScapegoat?
