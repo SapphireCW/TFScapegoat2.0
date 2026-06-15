@@ -1,4 +1,6 @@
-## TFScapegoat - Introduzione
+<img src="https://tfscapegoat.vercel.app/images/logo.png">
+
+## TFScapegoat - Introduzione 🏁
 * Cos'è TFScapegoat?
 Tag Force Scapegoat è una versione modificata di Yu-Gi-Oh! GX Tag Force 1 creata da **IamGroot**.
 
@@ -45,7 +47,7 @@ Se siete alla ricerca di un gioco senza impegni, con una grafica più nostalgica
 	- Spirit Elimination
 </details>
 
-## TFScapegoat - Galleria
+## TFScapegoat - Galleria 🖼️
 _Deck Iniziale_
 ![IMG04](https://tfscapegoat.vercel.app/images/screenshot/04.png)
 _Carte Bandite_
@@ -56,7 +58,7 @@ _Carte Semi-Limitate_
 ![IMG07](https://tfscapegoat.vercel.app/images/screenshot/07.png)
 _[Clicca qui](https://tfscapegoat.vercel.app/tfscapegoat/galleria/) per visualizzare la galleria completa!_
 
-## TFScapegoat - Guida
+## TFScapegoat - Guida 📖
 1. Scompattare il pack appena scaricato;
 2. Copiare il contenuto del pack nella vostra cartella `"PPSSPP/memstick/PSP"`;
 3. Avviate il gioco e se tutto funziona vi apparirà la scritta: `✅Plugin caricato: TF-EhpLoader.prx`;
@@ -68,7 +70,7 @@ _[Clicca qui](https://tfscapegoat.vercel.app/tfscapegoat/galleria/) per visualiz
 
 _[Clicca qui](http://tfscapegoat.vercel.app/tfscapegoat/guida/) per una guida più dettagliata con immagini._
 
-## TFScapegoat - Download
+## TFScapegoat - Download ⬇️
 **Ultima Versione (v1.1)**<br>
 _Note della Versione: In questa versione sono state apportate le seguenti modifiche:_  
 * Lingue supportate: <img src="https://tfscapegoat.vercel.app/images/flags/us.png" width="24px"> <img src="https://tfscapegoat.vercel.app/images/flags/de.png" width="24px"> <img src="https://tfscapegoat.vercel.app/images/flags/fr.png" width="24px"> <img src="https://tfscapegoat.vercel.app/images/flags/it.png" width="24px"> <img src="https://tfscapegoat.vercel.app/images/flags/es.png" width="24px">
@@ -90,7 +92,7 @@ _Note della Versione: In questa versione sono state apportate le seguenti modifi
 Data di rilascio: **12/06/2026**  
 Link download: <a href="https://github.com/SapphireCW/TFScapegoat/releases/tag/TFScapegoat"><img src="https://tfscapegoat.vercel.app/images/github.png" width="32px"></a> - <a href="https://drive.google.com/drive/folders/1ccWaU61GGCoqf0IMUmqf1g4JN7rwDAkz?usp=drive_link" target="blank"><img src="https://tfscapegoat.vercel.app/images/google-drive.png"></a> - <a href="https://mega.nz/folder/p3ggFZKA#q9VU_0vLsqSFN5VMGn94Eg" target="blank"><img src="https://tfscapegoat.vercel.app/images/mega.png"></a> - <a href="https://www.mediafire.com/folder/n8os6y3h2q39o/Tag+Force+Scapegoat+v1.1" target="blank"><img src="https://tfscapegoat.vercel.app/images/mediafire.png" width="50px"></a>
 
-## TFScapegoat - FAQ
+## TFScapegoat - FAQ ❔
 <ul>
 	<li><b>D: Cos'è Tag Force Scapegoat?</b></li>
 		<ul>
