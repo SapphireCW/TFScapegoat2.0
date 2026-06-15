@@ -4,7 +4,7 @@ description: "Scrivi qui le tue domande o segnalazioni"
 ---
 
 <center><p style="font-size: 24px;">Contatta lo sviluppatore! ✉️<br></p>
-Per qualsiasi domanda, informazione, ringraziamento o segnalazione sentitevi liberi di contattarci tramite e-mail al seguente indirizzo: tfscapegoat.info@protonmail.com<br> oppure attraverso il form che trovate in basso.</center>
+Per qualsiasi domanda, informazione, ringraziamento o segnalazione sentitevi liberi di contattarci tramite e-mail al seguente indirizzo: <a href="mailto:tfscapegoat.info@protonmail.com">tfscapegoat.info@protonmail.com</a><br> oppure attraverso il form che trovate in basso.</center>
 <form action="https://formspree.io/f/xzdwvlor" method="POST">
   
   <label for="email">Email:</label>
