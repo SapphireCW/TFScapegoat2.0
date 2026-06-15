@@ -159,7 +159,7 @@ Link download: <a href="https://github.com/SapphireCW/TFScapegoat/releases/tag/T
 ⚠️ <b>Attenzione:</b> Se avete altre segnalazioni potete contattarci al seguente indirizzo e-mail: <a href="mailto:tfscapegoat.info@protonmail.com">tfscapegoat.info@protonmail.com</a> oppure <a href="https://tfscapegoat.vercel.app/contattaci/">clicca qui!</a>
 </div>
 
-## Ringraziamenti
+## Ringraziamenti 🙏
 <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:20px; text-align:center;">
   
   <div style="flex:0 0 100px;">
