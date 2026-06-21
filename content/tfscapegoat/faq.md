@@ -23,11 +23,11 @@ description: "Contiene tutte le domande più frequenti."
 		</ul>
 	<li><b>D: La mod funziona solo su emulatore (PPSSPP) o anche su console fisica?</b></li>
 		<ul>
-			<li>R: La mod funziona con emulatore <code>PPSSPP (v1.20.x)</code> e successive, inoltre la mod funziona anche su console fisica (per maggiori info <a href="https://github.com/xan1242/TFEhpLoader#psp-note">clicca qui!</a>).</li>
+			<li>R: La mod funziona con emulatore <code>PPSSPP (v1.20.x)</code> e successive, inoltre la mod funziona anche su console fisica <i>(per maggiori info <a href="https://github.com/xan1242/TFEhpLoader#psp-note">clicca qui!</a>)</i>.</li>
 		</ul>
 	<li><b>D: Come disinstallo la mod?</b></li>
 		<ul>
-			<li>R: Per disinstallare la mod vi basterà: cancellare tutti i file importati (<code>Cheats/ULES00600.ini</code>, <code>SAVEDATA/ULES006000001/goat.YGL</code>, <code>PLUGINS/TF-EhpLoader</code> e sostituire la <code>iso</code> di gioco con quella originale.</li>
+			<li>R: Per disinstallare la mod vi basterà: cancellare tutti i file importati (<code>Cheats/ULES00600.ini</code>, <code>SAVEDATA/ULES006000001/goat.YGL</code>, <code>PLUGINS/TF-EhpLoader/</code> e sostituire la <code>iso</code> di gioco con quella originale.</li>
 		</ul>
 	<li><b>D: Cosa succede se acquisto dei pack dallo shop?</b></li>
 		<ul>
@@ -37,7 +37,7 @@ description: "Contiene tutte le domande più frequenti."
 	<ul>
 		<li>R: Come prima cosa, se l'emulatore non vi carica il plugin, dovete controllare nelle impostazioni di PPSSPP se avete i plugin attivi: per farlo vi basterà recarvi in <code>Impostazioni</code> → <code>Sistema</code> scendere quasi alla fine della pagina e noterete le voci <code>Attiva i Trucchi</code> e <code>Abilita plugin</code> spuntatele entrambe. Riavviate il gioco e adesso dovrebbe comparirvi la scritta<br>
 		✅Plugin caricato: TF-EhpLoader.prx.<br>
-		Se ancora non vi carica il plugin allora c'è un problema di configurazione del plugin. Recatevi nella cartella <code>memstick</code> della vostra PSP e aprite la cartella <code>PLUGINS</code> → <code>TF-EhpLoader</code> e aprite il file <code>plugin.ini</code> con un blocco note, successivamente dovete controllare se sotto la voce <code>[games]</code> ci sia l'ID di Tag Force 1 (ULES00600 = true). Se non c'è inseritelo, salvate il file e riavviate l'emulatore.
+		Se ancora non vi carica il plugin allora c'è un problema di configurazione del plugin. Recatevi nella cartella <code>memstick</code> della vostra PSP e aprite la cartella <code>PLUGINS</code> → <code>TF-EhpLoader</code> e aprite il file <code>plugin.ini</code> con un blocco note, successivamente dovete controllare se sotto la voce <code>[games]</code> ci sia l'ID di Tag Force 1 <i>(ULES00600 = true)</i>. Se non c'è inseritelo, salvate il file e riavviate l'emulatore.
 		<div style="background:#1e3a5f; border-left:4px solid #3498db; padding:15px; margin:20px 0; border-radius:5px;">
 			ℹ️ <b>Nota:</b> Se usate entrambe le versioni della mod (sia Tag Force 1, sia Tag Force 5) il file <code>plugin.ini</code> dovrebbe essere così configurato:<br>
 			<code>
@@ -52,7 +52,7 @@ description: "Contiene tutte le domande più frequenti."
 		<li>
 			R: Se il gioco non vi carica i deck modificati degli NPC il problema è sicuramente una scorretta configurazione del plugin <code>TFEhpLoader</code>.<br>
 			Come prima cosa controllate che all'avvio del gioco vi appaia la scritta:<br>
-			<i><span style="background-color: green; color: white;">✅Plugin caricato: TF-EhpLoader.prx</span></i> (date un'occhiata <a href="#TFEhpLoader">qui</a>).<br>
+			<i><span style="background-color: green; color: white;">✅Plugin caricato: TF-EhpLoader.prx</span></i> <i>(date un'occhiata <a href="#TFEhpLoader">qui</a>)</i>.<br>
 			Se all'avvio vi compare la scritta ma comunque non vi carica i deck modificati degli NPC allora dobbiamo assicurarci che il tutto funzioni. Rechiamoci nella cartella <code>memstick</code> di PPSSPP e apriamo la cartella <code>PLUGINS</code> → <code>TF-EhpLoader</code> la cartella dovrebbe avere tutti i seguenti file:<br>
 			<code>ehps</code> → <code>ULES00600</code> → <code>rcpset.ehp</code><br>
 			<code>plugin.ini</code>, <code>TF-EhpLoader.prx</code> e <code>TF-EhpLoaderBoot.prx</code>.<br>
@@ -62,7 +62,7 @@ description: "Contiene tutte le domande più frequenti."
 	<li><b>D: Il gioco non mi carica la banlist del Goat Format cosa posso fare?</b></li>
 	<ul>
 		<li>
-			R: Se il gioco non vi carica la banlist del Goat dobbiamo innanzitutto assicurarci di averla caricata correttamente: Rechiamoci nella cartella <code>memstick</code> di PPSSPP e apriamo la cartella <code>SAVEDATA</code> → <code>ULES006000001</code> e assicuriamoci che ci sia il file <code>goat.YGL</code> (Se il file non è stato caricato potete riscaricarlo dalla pagina di <a href="/tfscapegoat/download">download</a>).<br>
+			R: Se il gioco non vi carica la banlist del Goat dovete innanzitutto assicurarvi di averla caricata correttamente: Recatevi nella cartella <code>memstick</code> di PPSSPP e aprite la cartella <code>SAVEDATA</code> → <code>ULES006000001</code> e assicuratevi che ci sia il file <code>goat.YGL</code> <i>(Se il file non è stato caricato potete riscaricarlo dalla pagina di <a href="/tfscapegoat/download">download</a>)</i>.<br>
 			Invece se il file è presente nella cartella ma il gioco non vi carica la banlist le soluzioni possono essere:<br>
 			1) Seguire il passo <a href="/tfscapegoat/guida/#passo-4">4.</a> della guida per impostare la banlist.<br>
 			2) controllare nelle impostazioni di PPSSPP se avete i trucchi attivi: per farlo vi basterà recarvi in <code>Impostazioni</code> → <code>Sistema</code> scendere quasi alla fine della pagina e noterete la voce <code>Attiva i Trucchi</code> ora se non attiva attivatela. Riavviate il gioco, seguite il passo <a href="/tfscapegoat/guida/#passo-4">4.</a> della guida e dovrebbe funzionare tutto correttamente.<br>

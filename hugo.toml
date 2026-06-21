@@ -23,7 +23,11 @@ theme = "hugo-simple"
     name = "TFScapegoat"
     pageRef = "tfscapegoat"
     weight = 20
-	[[menu.main]]
+  [[menu.main]]
+    name = "TF5savedata"
+    pageRef = "tf5savedata"
+    weight = 30
+  [[menu.main]]
     name = "Contattaci"
     pageRef = "contattaci"
-    weight = 30
+    weight = 40

@@ -15,7 +15,7 @@ _(Il Card Pool del gioco adesso conta 1.677 carte, tutte le altre sono state nas
 ✅ <span style="color: green;"><b>Banlist</b></span>  
 _(Bandite, Limitate e Semi-Limitate del Goat Format)_.  
 ✅ <span style="color: green;"><b>Deck Iniziale</b></span>  
-_(sono state sostituite tutte le carte non appartenenti al Goat Format)_.  
+_(Deck ispirato a `Mako Tsunami`)_.  
 ✅ <span style="color: green;"><b>Deck degli NPC</b></span>  
 _(Modificati deck di alcuni NPC per maggiori informazioni [clicca qui!](/tfscapegoat/download/#deck-npc))_
 * **Modifiche non ancora apportate**  

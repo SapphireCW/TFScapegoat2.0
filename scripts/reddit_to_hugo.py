@@ -78,6 +78,18 @@ def main():
         link_elem = entry.find('atom:link', ns)
         link = link_elem.get('href') if link_elem is not None else '#'
         
+        parts = link.rstrip('/').split('/')
+        comments_pos = -1
+        for i, part in enumerate(parts):
+            if part == 'comments':
+                comments_pos = i
+                break
+        
+        if comments_pos >= 0 and len(parts) > comments_pos + 2:
+            if len(parts) > comments_pos + 3:
+                print(f"Saltato (commento): {title[:50]}...")
+                continue 
+        
         date_elem = entry.find('atom:published', ns) or entry.find('atom:updated', ns)
         date_str = date_elem.text if date_elem is not None else None
         published = parse_reddit_date(date_str)

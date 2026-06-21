@@ -11,11 +11,11 @@ description: "Benvenuto visitatore!"
 	<p>#Goat</p>
   </a>
   
-  <span style="background:#161b22 !important; padding:30px; border-radius:8px; text-align:center; text-decoration:none; color:white; flex:1; max-width:300px;">
+  <a href="/tf5savedata" style="background:#5e2b97 !important; padding:30px; border-radius:8px; text-align:center; text-decoration:none; color:white; flex:1; max-width:300px;" onmouseover="this.style.borderColor='#d4af37'; this.style.background='#d4af37'; this.querySelector('p').style.color='#000';" onmouseout="this.style.borderColor='#30363d'; this.style.background='#5e2b97'; this.querySelector('p').style.color='#FFF';">
     <img src="/images/tag-force-5.png">
-    <p style="color: white;"><i>(presto disponibile)</i></p>
+    <p style="color: white;">Alternativa Tag Force 5</p>
 	<p>#Goat #Edison</p>
-  </span>
+  </a>
 </div>
 
 <center><h2>Ultime Notizie <img src="/images/reddit.png" width="36px"></h2></center>

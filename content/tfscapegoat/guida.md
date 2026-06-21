@@ -13,38 +13,38 @@ description: "Contiene tutte le istruzioni per installare la mod passo per passo
 1) Scompattare il pack appena scaricato:
 <details>
 	<summary>Clicca per vedere l'immagine</summary>
-	<img src="/images/guide/01.png">
+	<img src="/images/guide/tfs/01.png">
 </details>
 
 2) Copiare il contenuto del pack nella vostra cartella `PPSSPP/memstick/PSP`
 <details>
 	<summary>Clicca per vedere l'immagine</summary>
-	<img src="/images/guide/02.png">
+	<img src="/images/guide/tfs/02.png">
 </details>
 
 3) Avviate il gioco e se tutto funziona vi apparirà la scritta:  
  _<span style="background-color: green; color: white;">✅Plugin caricato: TF-EhpLoader.prx</span>_
 <details>
 	<summary>Clicca per vedere l'immagine</summary>
-	<img src="/images/guide/03.png">
+	<img src="/images/guide/tfs/03.png">
 </details>
 
 4) <span id="passo-4">Alla</span> schermata iniziale rechiamoci su `database` → `Forbidden/Limited Card List` e si aprirà la banlist del gioco:
 <details>
 	<summary>Clicca per vedere l'immagine</summary>
-	<img src="/images/guide/04.png">
+	<img src="/images/guide/tfs/04.png">
 </details>
 
 Nella schermata della banlist dovete premere `△` → `Change Forb/Ltd Card List` → `Goat`
 <details>
 	<summary>Clicca per vedere l'immagine</summary>
-	<img src="/images/guide/05.png">
+	<img src="/images/guide/tfs/05.png">
 </details>
 
 5) Se volete sbloccare tutte le carte vi basterà premere `esc` → `Trucchi` → e attivare entrambi `Give you all cards x7`:
 <details>
 	<summary>Clicca per vedere l'immagine</summary>
-	<img src="/images/guide/06.png">
+	<img src="/images/guide/tfs/06.png">
 </details>
 
 Successivamente potete anche disattivarli.  
