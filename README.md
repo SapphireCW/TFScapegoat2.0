@@ -67,8 +67,8 @@ _[Clicca qui](https://tfscapegoat.vercel.app/tfscapegoat/galleria/) per visualiz
 4. <span id="passo-4">Alla</span> schermata iniziale rechiamoci su `database → Forbidden/Limited Card List` e si aprirà la banlist del gioco. Nella schermata della banlist dovete premere `△ → Change Forb/Ltd Card List → Goat`;
 5. Se volete sbloccare tutte le carte vi basterà premere `esc → Trucchi →` e attivare entrambi `Give you all cards x7`
    Successivamente potete anche disattivarli.<br>
-	⚠️ <b>Importante:</b> Non disattivare mai `Allows Game To Read Decrypted DLC Files (ULES00600 v1.01)`
-	Ora siete pronti per giocare il vostro Goat Offline! 😎
+⚠️ <b>Importante:</b> Non disattivare mai `Allows Game To Read Decrypted DLC Files (ULES00600 v1.01)`
+Ora siete pronti per giocare il vostro Goat Offline! 😎
 
 _[Clicca qui](http://tfscapegoat.vercel.app/tfscapegoat/guida/) per una guida più dettagliata con immagini._
 
@@ -171,15 +171,15 @@ A differenza di TFScapegoat, che alcune modifiche sono state apportate direttame
 * **Modifiche apportate**  
 ✅ <b style="color: green;">Card Pool</b>  
 All'interno del gioco troverete _(già impostati)_:  
-	-- Pool di carte del Goat _(carte con il contrassegno)_  
-	-- Pool di carte dell'Edison _(pool di carte completo del gioco)_.  
+	- Pool di carte del Goat _(carte con il contrassegno)_  
+	- Pool di carte dell'Edison _(pool di carte completo del gioco)_.  
 ✅ <b style="color: green;">Tutte le Carte Sbloccate</b>  
 _(Già all'inizio del gioco avrete l'intero Pool di carte già sbloccato x99 nella vostra cassa.)_  
 ✅ <b style="color: green;">Banlist</b>  
 _(Potrete scegliere la banlist in base al formato che volete giocare: Goat o Edison.)_  
 ✅ <b style="color: green;">Deck Iniziale</b>  
--- Goat _(`Chaos Turbo`)_  
--- Edison _(`Vayu Turbo`)_  
+- Goat _(`Chaos Turbo`)_  
+- Edison _(`Vayu Turbo`)_  
 ✅ <b style="color: green;">Deck NPC</b>  
 _(Modificati deck dei primi NPC per maggiori informazioni [clicca qui!](#deck-npc))_
 * **Considerazioni finali**  
@@ -216,8 +216,10 @@ _[Clicca qui](https://tfscapegoat.vercel.app/tf5savedata/galleria/) per visualiz
 2) Copiare il contenuto del pack nella vostra cartella `PPSSPP/memstick/PSP`;
 3) Avviate il gioco e se tutto funziona vi apparirà la scritta:  
  _<span style="background-color: green; color: white;">✅Plugin caricato: TF-EhpLoader.prx</span>_;
-4) <span id="passo-4">Se</span> si vuole cambiare la banlist, dalla schermata iniziale rechiamoci su `database` → `Forbidden/Limited Card List` e si aprirà la banlist del gioco. Nella schermata della banlist dovete premere `△` → `Change Forb/Ltd Card List` → `Goat` o `Edison`
+4) <span id="TF5passo-4">Se</span> si vuole cambiare la banlist, dalla schermata iniziale rechiamoci su `database` → `Forbidden/Limited Card List` e si aprirà la banlist del gioco. Nella schermata della banlist dovete premere `△` → `Change Forb/Ltd Card List` → `Goat` o `Edison`
 5) Per modificare il Pool di carte invece, dalla schermata iniziale dobbiamo recarci su `Deck Menu` → `Deck Edit` e vi si aprirà la cassa con tutte le carte. Nella schermata della cassa dovrete premere `△` → `Search Menu` → `Label Display Settings` → `Show All Cards in Trunk` (Edison Pool) → `Only Show Labeled Cards` (Goat Pool).
+⚠️ <b>Importante:</b> Non disattivare mai `Allows Game To Read Decrypted DLC Files (ULES00600 v1.01)`
+Ora siete pronti per giocare il vostro Goat o Edison Offline! 😎
 
 _[Clicca qui](http://tfscapegoat.vercel.app/tf5savedata/guida/) per una guida più dettagliata con immagini._
 
@@ -266,18 +268,16 @@ Link download: <a href="https://github.com/SapphireCW/TFScapegoat2.0/releases/ta
 		<ul>
 			<li>R: Per disinstallare la mod vi basterà: cancellare tutti i file importati (<code>Cheats/ULES01474.ini</code>, <code>SAVEDATA/ULES014740001/</code> e <code>PLUGINS/TF-EhpLoader/</code>.</li>
 		</ul>
-	<li id="TFEhpLoader"><b>D: Non mi appare la scritta <i><span style="background-color: green; color: white;">✅Plugin caricato: TF-EhpLoader.prx</span></i> cosa devo fare?</b></li>
+	<li id="TF5EhpLoader"><b>D: Non mi appare la scritta <i><span style="background-color: green; color: white;">✅Plugin caricato: TF-EhpLoader.prx</span></i> cosa devo fare?</b></li>
 	<ul>
 		<li>R: Come prima cosa, se l'emulatore non vi carica il plugin, dovete controllare nelle impostazioni di PPSSPP se avete i plugin attivi: per farlo vi basterà recarvi in <code>Impostazioni</code> → <code>Sistema</code> scendere quasi alla fine della pagina e noterete le voci <code>Attiva i Trucchi</code> e <code>Abilita plugin</code> spuntatele entrambe. Riavviate il gioco e adesso dovrebbe comparirvi la scritta<br>
 		✅Plugin caricato: TF-EhpLoader.prx.<br>
 		Se ancora non vi carica il plugin allora c'è un problema di configurazione del plugin. Recatevi nella cartella <code>memstick</code> della vostra PSP e aprite la cartella <code>PLUGINS</code> → <code>TF-EhpLoader</code> e aprite il file <code>plugin.ini</code> con un blocco note, successivamente dovete controllare se sotto la voce <code>[games]</code> ci sia l'ID di Tag Force 5 <i>(ULES01474 = true)</i>. Se non c'è inseritelo, salvate il file e riavviate l'emulatore.
 		<div style="background:#1e3a5f; border-left:4px solid #3498db; padding:15px; margin:20px 0; border-radius:5px;">
 			ℹ️ <b>Nota:</b> Se usate entrambe le versioni della mod (sia Tag Force 1, sia Tag Force 5) il file <code>plugin.ini</code> dovrebbe essere così configurato:<br>
-			<code>
 				[games]<br>
 				ULES01474 = true<br>
 				ULES00600 = true
-			</code>
 		</div>
 		</li>
 	</ul>
@@ -286,7 +286,7 @@ Link download: <a href="https://github.com/SapphireCW/TFScapegoat2.0/releases/ta
 		<li>
 			R: Se il gioco non vi carica i deck modificati degli NPC il problema è sicuramente una scorretta configurazione del plugin <code>TFEhpLoader</code>.<br>
 			Come prima cosa controllate che all'avvio del gioco vi appaia la scritta:<br>
-			<i><span style="background-color: green; color: white;">✅Plugin caricato: TF-EhpLoader.prx</span></i> <i>(date un'occhiata <a href="#TFEhpLoader">qui</a>)</i>.<br>
+			<i><span style="background-color: green; color: white;">✅Plugin caricato: TF-EhpLoader.prx</span></i> <i>(date un'occhiata <a href="#TF5EhpLoader">qui</a>)</i>.<br>
 			Se all'avvio vi compare la scritta ma comunque non vi carica i deck modificati degli NPC allora dobbiamo assicurarci che il tutto funzioni. Rechiamoci nella cartella <code>memstick</code> di PPSSPP e apriamo la cartella <code>PLUGINS</code> → <code>TF-EhpLoader</code> la cartella dovrebbe avere tutti i seguenti file:<br>
 			<code>ehps</code> → <code>ULES01474</code> → <code>rcpset.ehp</code><br>
 			<code>plugin.ini</code>, <code>TF-EhpLoader.prx</code> e <code>TF-EhpLoaderBoot.prx</code>.<br>
@@ -298,8 +298,8 @@ Link download: <a href="https://github.com/SapphireCW/TFScapegoat2.0/releases/ta
 		<li>
 			R: Se il gioco non vi carica la banlist del Goat dovete innanzitutto assicurarvi di averla caricata correttamente: Recatevi nella cartella <code>memstick</code> di PPSSPP e aprite la cartella <code>SAVEDATA</code> → <code>ULES014740001</code> e assicuratevi che ci siano i file <code>goat.YGL</code> e <code>edison.YGL</code> <i>(Se i file non sono stati caricati potete riscaricarli dalla pagina di <a href="/tf5savedata/download">download</a>)</i>.<br>
 			Invece se i file sono presenti nella cartella ma il gioco non vi carica le banlist le soluzioni possono essere:<br>
-			1) Seguire il passo <a href="#passo-4">4.</a> della guida per impostare la banlist che volete.<br>
-			2) controllare nelle impostazioni di PPSSPP se avete i trucchi attivi: per farlo vi basterà recarvi in <code>Impostazioni</code> → <code>Sistema</code> scendere quasi alla fine della pagina e noterete la voce <code>Attiva i Trucchi</code> ora se non attiva attivatela. Riavviate il gioco, seguite il passo <a href="#passo-4">4.</a> della guida e dovrebbe funzionare tutto correttamente.<br>
+			1) Seguire il passo <a href="#TF5passo-4">4.</a> della guida per impostare la banlist che volete.<br>
+			2) controllare nelle impostazioni di PPSSPP se avete i trucchi attivi: per farlo vi basterà recarvi in <code>Impostazioni</code> → <code>Sistema</code> scendere quasi alla fine della pagina e noterete la voce <code>Attiva i Trucchi</code> ora se non attiva attivatela. Riavviate il gioco, seguite il passo <a href="TF5#passo-4">4.</a> della guida e dovrebbe funzionare tutto correttamente.<br>
 			3) controllare nel menù dei trucchi PPSSPP se il trucco <code>Allows Game To Read Decrypted DLC Files (ULES01474 v1.01)</code> sia attivo.
 		</li>
 	</ul>
