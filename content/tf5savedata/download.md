@@ -25,5 +25,5 @@ _In questa versione sono state apportate le seguenti modifiche:_
 	<p><small>N.B. i deck saranno modificati in futuro (è solo una versione di prova al momento).</small></p>
 </details>
 
-Data di rilascio: **26/06/2026**  
+Data di rilascio: **21/06/2026**  
 Link download: <a href="https://github.com/SapphireCW/TFScapegoat2.0/releases/tag/TF5savedata" target="blank"><img src="/images/github.png" width="32px"></a> - <a href="https://drive.google.com/drive/folders/1BFCnvCexDyWvHGaVXa2iR-l0Lexjoe_P?usp=drive_link" target="blank"><img src="/images/google-drive.png"></a> - <a href="https://mega.nz/folder/0vxGzKxQ#e2ZsGBgA7j2HHdFODSOIOQ" target="blank"><img src="/images/mega.png"></a> - <a href="https://www.mediafire.com/folder/vbuylroqird1u/Tag+Force+5+Savedata+v1.0" target="blank"><img src="/images/mediafire.png" width="50px"></a>
