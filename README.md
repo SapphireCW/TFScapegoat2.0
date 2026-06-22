@@ -182,8 +182,8 @@ _(Già all'inizio del gioco avrete l'intero Pool di carte già sbloccato x99 nel
 ✅ <b style="color: green;">Banlist</b>  
 _(Potrete scegliere la banlist in base al formato che volete giocare: Goat o Edison.)_  
 ✅ <b style="color: green;">Deck Iniziale</b>  
-- Goat _(`Chaos Turbo`)_  
-- Edison _(`Vayu Turbo`)_  
+	- Goat _(`Chaos Turbo`)_  
+	- Edison _(`Vayu Turbo`)_  
 ✅ <b style="color: green;">Deck NPC</b>  
 _(Modificati deck dei primi NPC per maggiori informazioni [clicca qui!](#deck-npc))_
 * **Considerazioni finali**  
