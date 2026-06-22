@@ -294,16 +294,16 @@ Link download: <a href="https://github.com/SapphireCW/TFScapegoat2.0/releases/ta
 			Se all'avvio vi compare la scritta ma comunque non vi carica i deck modificati degli NPC allora dobbiamo assicurarci che il tutto funzioni. Rechiamoci nella cartella <code>memstick</code> di PPSSPP e apriamo la cartella <code>PLUGINS</code> → <code>TF-EhpLoader</code> la cartella dovrebbe avere tutti i seguenti file:<br>
 			<code>ehps</code> → <code>ULES01474</code> → <code>rcpset.ehp</code><br>
 			<code>plugin.ini</code>, <code>TF-EhpLoader.prx</code> e <code>TF-EhpLoaderBoot.prx</code>.<br>
-			Se il tutto è configurato nel seguente modo allora è corretto e il tutto funziona. Altrimenti se vi manca qualche file riscaricate la cartella PLUGINS dalla pagina di <a href="/tf5savedata/download">download</a>
+			Se il tutto è configurato nel seguente modo allora è corretto e il tutto funziona. Altrimenti se vi manca qualche file riscaricate la cartella PLUGINS dalla pagina di <a href="https://github.com/SapphireCW/TFScapegoat2.0#tf5savedata---download-%EF%B8%8F">download</a>
 		</li>
 	</ul>
 	<li><b>D: Il gioco non mi carica le banlist del Goat Format e/o dell'Edison Format cosa posso fare?</b></li>
 	<ul>
 		<li>
-			R: Se il gioco non vi carica la banlist del Goat dovete innanzitutto assicurarvi di averla caricata correttamente: Recatevi nella cartella <code>memstick</code> di PPSSPP e aprite la cartella <code>SAVEDATA</code> → <code>ULES014740001</code> e assicuratevi che ci siano i file <code>goat.YGL</code> e <code>edison.YGL</code> <i>(Se i file non sono stati caricati potete riscaricarli dalla pagina di <a href="/tf5savedata/download">download</a>)</i>.<br>
+			R: Se il gioco non vi carica la banlist del Goat dovete innanzitutto assicurarvi di averla caricata correttamente: Recatevi nella cartella <code>memstick</code> di PPSSPP e aprite la cartella <code>SAVEDATA</code> → <code>ULES014740001</code> e assicuratevi che ci siano i file <code>goat.YGL</code> e <code>edison.YGL</code> <i>(Se i file non sono stati caricati potete riscaricarli dalla pagina di <a href="https://github.com/SapphireCW/TFScapegoat2.0#tf5savedata---download-%EF%B8%8F">download</a>)</i>.<br>
 			Invece se i file sono presenti nella cartella ma il gioco non vi carica le banlist le soluzioni possono essere:<br>
 			1) Seguire il passo <a href="#TF5passo-4">4.</a> della guida per impostare la banlist che volete.<br>
-			2) controllare nelle impostazioni di PPSSPP se avete i trucchi attivi: per farlo vi basterà recarvi in <code>Impostazioni</code> → <code>Sistema</code> scendere quasi alla fine della pagina e noterete la voce <code>Attiva i Trucchi</code> ora se non attiva attivatela. Riavviate il gioco, seguite il passo <a href="TF5#passo-4">4.</a> della guida e dovrebbe funzionare tutto correttamente.<br>
+			2) controllare nelle impostazioni di PPSSPP se avete i trucchi attivi: per farlo vi basterà recarvi in <code>Impostazioni</code> → <code>Sistema</code> scendere quasi alla fine della pagina e noterete la voce <code>Attiva i Trucchi</code> ora se non attiva attivatela. Riavviate il gioco, seguite il passo <a href="#TF5passo-4">4.</a> della guida e dovrebbe funzionare tutto correttamente.<br>
 			3) controllare nel menù dei trucchi PPSSPP se il trucco <code>Allows Game To Read Decrypted DLC Files (ULES01474 v1.01)</code> sia attivo.
 		</li>
 	</ul>
