@@ -175,15 +175,15 @@ A differenza di TFScapegoat, che alcune modifiche sono state apportate direttame
 * **Modifiche apportate**  
 ✅ <b style="color: green;">Card Pool</b>  
 All'interno del gioco troverete _(già impostati)_:  
-	- Pool di carte del Goat _(carte con il contrassegno)_  
-	- Pool di carte dell'Edison _(pool di carte completo del gioco)_.  
+	* Pool di carte del Goat _(carte con il contrassegno)_  
+	* Pool di carte dell'Edison _(pool di carte completo del gioco)_.  
 ✅ <b style="color: green;">Tutte le Carte Sbloccate</b>  
 _(Già all'inizio del gioco avrete l'intero Pool di carte già sbloccato x99 nella vostra cassa.)_  
 ✅ <b style="color: green;">Banlist</b>  
 _(Potrete scegliere la banlist in base al formato che volete giocare: Goat o Edison.)_  
 ✅ <b style="color: green;">Deck Iniziale</b>  
-	- Goat _(`Chaos Turbo`)_  
-	- Edison _(`Vayu Turbo`)_  
+	* Goat _(`Chaos Turbo`)_  
+	* Edison _(`Vayu Turbo`)_  
 ✅ <b style="color: green;">Deck NPC</b>  
 _(Modificati deck dei primi NPC per maggiori informazioni [clicca qui!](#deck-npc))_
 * **Considerazioni finali**  
