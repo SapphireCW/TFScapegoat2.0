@@ -1,4 +1,8 @@
-<center><img src="https://tfscapegoat.vercel.app/images/logo.png" width="240px"></center>
+## Indice:
+* [Tag Force Scapegoat](#TFS)
+* [Tag Force 5 savedata](#TF5)
+
+<img src="https://tfscapegoat.vercel.app/images/logo.png" width="240px" id="TFS">
 
 ## TFScapegoat - Introduzione 🏁
 * Cos'è TFScapegoat?
@@ -162,7 +166,7 @@ Link download: <a href="https://github.com/SapphireCW/TFScapegoat2.0/releases/ta
 ⚠️ <b>Attenzione:</b> Se avete altre segnalazioni potete contattarci al seguente indirizzo e-mail: <a href="mailto:tfscapegoat.info@protonmail.com">tfscapegoat.info@protonmail.com</a> oppure <a href="https://tfscapegoat.vercel.app/contattaci/">clicca qui!</a>
 </div>
 
-<center><img src="https://tfscapegoat.vercel.app/images/tag-force-5.png" width="240px"></center>
+<img src="https://tfscapegoat.vercel.app/images/tag-force-5.png" width="240px" id="TF5">
 
 ## TF5savedata - Introduzione 🏁
 Tag Force 5 savedata è una nuova alternativa che, a differenza di TFScapegoat, al suo interno racchiude ben due card pool: Goat Format e Edison Format. Infatti, vi permetterà di giocare sia al Goat che all'Edison.
