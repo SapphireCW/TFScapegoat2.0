@@ -1,7 +1,7 @@
 ---
 title: "Rilascio TFScapegoat (v1.1.1) e TF5savedata (v1.0)"
 date: 2026-06-23T03:41:54+02:00
-draft: false
+draft: true
 source: "reddit"
 source_url: "https://www.reddit.com/r/Yugioh101/comments/1ud3mlb/rilascio_tfscapegoat_v111_e_tf5savedata_v10/"
 categories: ["Aggiornamenti"]
